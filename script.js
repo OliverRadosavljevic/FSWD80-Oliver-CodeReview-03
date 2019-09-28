@@ -21,5 +21,12 @@ document.getElementById("calculate").addEventListener("click", function () {
         calculateInsurance(hoyc, age, country);
         document.getElementById("result").innerHTML = name + ", your insurance costs " + insurance + " €";
         document.getElementById("resultDiv").style.display = "block";
-    }
+    };
 })
+
+function reload(){
+    document.getElementById("name").value = "";
+    document.getElementById("age").value = "";
+    document.getElementById("hoyc").value = "";
+    document.getElementById("Country").value = "Austria";
+}
