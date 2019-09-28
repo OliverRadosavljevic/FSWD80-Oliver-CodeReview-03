@@ -15,7 +15,7 @@ header {
   align-self: center;
 }
 
-ul {
+.navul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,11 +23,11 @@ ul {
   background-color: #8e1616;
 }
 
-li {
+.navli {
   float: left;
 }
 
-li a {
+.navli a {
   display: block;
   color: white;
   text-align: center;
@@ -35,7 +35,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.navli a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -141,8 +141,14 @@ main {
   padding-bottom: 80px;
 }
 
-#beforeFooter > div{
+#beforeFooter>div {
   padding: 10px;
   border-top: 1px black solid;
-	box-shadow: 1px 0px 10px #e2e1e2, -1px 0px 0px #e2e1e2;
+  box-shadow: 1px 0px 10px #e2e1e2, -1px 0px 0px #e2e1e2;
 }
+
+.beforeFooterHead {
+  color: #414d7c;
+  font-size: 45;
+}
+
