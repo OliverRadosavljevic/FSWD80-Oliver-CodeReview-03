@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div id="blackLogo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+        <div>
+            <img src="./images/banner.png" alt="banner">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="hInsurance">Car insurance</h2>
+        <div id="hInput">
+            <p id="hBox">Great coverage begins <br> with a custim quotes </p>
+            <div class="flexyInput">
+                <div>
+                    <p>Your name:</p> <input id="name" type="text">
+                </div>
+                <div>
+                    <p>Age:</p> <input id="age" type="number" min="18" max="100">
+                </div>
+            </div>
+            <div class="flexyInput">
+                <div>
+                    <p>Country:</p>
+                    <select id="country">
+                        <option value="austria">Austria</option>
+                        <option value="hungary">Hungary</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Horsepower of your car:</p> <input id="hoyc" type="text">
+                </div>
+            </div>
+            <div id="submitButton">
+                <input id="calculate" type="button" value="Calculate">
+            </div>
+            <div id="resultDiv" style="display:none">
+                <p id="result"> Here is the result!</p>
+            </div>
+        </div>
+        <div id="afterInput">
+            <p id="afterInputHeader">Un-complicating car coverage </p>
+            <p id="afterInputText">Understanding your coverage options should't be so hard. <br> We'll guide you through
+                available coverage types, <br> starting with who and what is covered.
+        </div>
+        <div id="beforeFooter">
+            <div>
+                <p style="color: #414d7c; font-size:45;">What comes standard<br></p><p>The coverage you need</p>
+            </div>
+            <div>
+                <p style="color: #414d7c; font-size:45;">Add-on protections & coverage<br></p><p>For more peace of mind</p>
+            </div>
+        </div>
+    </main>
+    <footer style="background-color: black;">
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+        <img id="logo-footer" src="./images/logo-inv.png" alt="logo">
+        <p id="footer-text">Oliver Radosavljevic - CodeFactory 2018</p>
+    </footer>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
